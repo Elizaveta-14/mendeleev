@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Периодическая система химических элементов Д.И. Менделеева</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f0f0f0;
+        }
+        .element {
+            background-color: #fff;
+            color: #333;
+            width: 70px;
+            height: 70px;
+            font-size: 12px;
+        }
+        .alkali-metal {
+            background-color: #ffb3ba;
+        }
+        .alkaline-earth-metal {
+            background-color: #ffdfba;
+        }
+        .transition-metal {
+            background-color: #ffffba;
+        }
+        .post-transition-metal {
+            background-color: #bfffba;
+        }
+        .metalloid {
+            background-color: #bae1ff;
+        }
+        .other-nonmetal {
+            background-color: #bac8ff;
+        }
+        .halogen {
+            background-color: #ffa3f7;
+        }
+        .noble-gas {
+            background-color: #dcdcdc;
+        }
+        .lanthanide {
+            background-color: #cce6cc;
+        }
+        .actinide {
+            background-color: #eaeaee;
+        }
+        .element-number {
+            font-size: 10px;
+            text-align: left;
+        }
+        .element-symbol {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .element-name {
+            font-size: 10px;
+        }
+        .empty {
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Периодическая система химических элементов Д.И. Менделеева</h1>
+    <table>
+        <tr>
+            <th colspan="18">Группа → Период ↓</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>I</th>
+            <th>II</th>
+            <th>III</th>
+            <th>IV</th>
+            <th>V</th>
+            <th>VI</th>
+            <th>VII</th>
+            <th>VIII</th>
+            <th>IX</th>
+            <th>X</th>
+            <th>XI</th>
+            <th>XII</th>
+            <th>XIII</th>
+            <th>XIV</th>
+            <th>XV</th>
+            <th>XVI</th>
+            <th>XVII</th>
+            <th>XVIII</th>
+        </tr>
+        <!-- Период 1 -->
+        <tr>
+            <td>1</td>
+            <td class="element alkali-metal">
+                <div class="element-number">1</div>
+                <div class="element-symbol">H</div>
+                <div class="element-name">Водород</div>
+            </td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="element noble-gas">
+                <div class="element-number">2</div>
+                <div class="element-symbol">He</div>
+                <div class="element-name">Гелий</div>
+            </td>
+        </tr>
+        <!-- Период 2 -->
+        <tr>
+            <td>2</td>
+            <td class="element alkali-metal">
+                <div class="element-number">3</div>
+                <div class="element-symbol">Li</div>
+                <div class="element-name">Литий</div>
+            </td>
+            <td class="element alkaline-earth-metal">
+                <div class="element-number">4</div>
+                <div class="element-symbol">Be</div>
+                <div class="element-name">Бериллий</div>
+            </td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="element post-transition-metal">
+                <div class="element-number">5</div>
+                <div class="element-symbol">B</div>
+                <div class="element-name">Бор</div>
+            </td>
+            <td class="element metalloid">
+                <div class="element-number">6</div>
+                <div class="element-symbol">C</div>
+                <div class="element-name">Углерод</div>
+            </td>
+            <td class="element other-nonmetal">
+                <div class="element-number">7</div>
+                <div class="element-symbol">N</div>
+                <div class="element-name">Азот</div>
+            </td>
+            <td class="element other-nonmetal">
+                <div class="element-number">8</div>
+                <div class="element-symbol">O</div>
+                <div class="element-name">Кислород</div>
+            </td>
+            <td class="element halogen">
+                <div class="element-number">9</div>
+                <div class="element-symbol">F</div>
+                <div class="element-name">Фтор</div>
+            </td>
+            <td class="element noble-gas">
+                <div class="element-number">10</div>
+                <div class="element-symbol">Ne</div>
+                <div class="element-name">Неон</div>
+            </td>
+        </tr>
+        <!-- Период 3 -->
+        <tr>
+            <td>3</td>
+            <td class="element alkali-metal">
+                <div class="element-number">11</div>
+                <div class="element-symbol">Na</div>
+                <div class="element-name">Натрий</div>
+            </td>
+            <td class="element alkaline-earth-metal">
+                <div class="element-number">12</div>
+                <div class="element-symbol">Mg</div>
+                <div class="element-name">Магний</div>
+            </td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="element post-transition-metal">
+                <div class="element-number">13</div>
+                <div class="element-symbol">Al</div>
+                <div class="element-name">Алюминий</div>
+            </td>
+            <td class="element metalloid">
+                <div class="element-number">14</div>
+                <div class="element-symbol">Si</div>
+                <div class="element-name">Кремний</div>
+            </td>
+            <td class="element other-nonmetal">
+                <div class="element-number">15</div>
+                <div class="element-symbol">P</div>
+                <div class="element-name">Фосфор</div>
+            </td>
+            <td class="element other-nonmetal">
+                <div class="element-number">16</div>
+                <div class="element-symbol">S</div>
+                <div class="element-name">Сера</div>
+            </td>
+            <td class="element halogen">
+                <div class="element-number">17</div>
+                <div class="element-symbol">Cl</div>
+                <div class="element-name">Хлор</div>
+            </td>
+            <td class="element noble-gas">
+                <div class="element-number">18</div>
+                <div class="element-symbol">Ar</div>
+                <div class="element-name">Аргон</div>
+            </td>
+        </tr>
+        <!-- Период 4 -->
+        <tr>
+            <td>4</td>
+            <td class="element alkali-metal">
+                <div class="element-number">19</div>
+                <div class="element-symbol">K</div>
+                <div class="element-name">Калий</div>
+            </td>
+            <td class="element alkaline-earth-metal">
+                <div class="element-number">20</div>
+                <div class="element-symbol">Ca</div>
+                <div class="element-name">Кальций</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">21</div>
+                <div class="element-symbol">Sc</div>
+                <div class="element-name">Скандий</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">22</div>
+                <div class="element-symbol">Ti</div>
+                <div class="element-name">Титан</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">23</div>
+                <div class="element-symbol">V</div>
+                <div class="element-name">Ванадий</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">24</div>
+                <div class="element-symbol">Cr</div>
+                <div class="element-name">Хром</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">25</div>
+                <div class="element-symbol">Mn</div>
+                <div class="element-name">Марганец</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">26</div>
+                <div class="element-symbol">Fe</div>
+                <div class="element-name">Железо</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">27</div>
+                <div class="element-symbol">Co</div>
+                <div class="element-name">Кобальт</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">28</div>
+                <div class="element-symbol">Ni</div>
+                <div class="element-name">Никель</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">29</div>
+                <div class="element-symbol">Cu</div>
+                <div class="element-name">Медь</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">30</div>
+                <div class="element-symbol">Zn</div>
+                <div class="element-name">Цинк</div>
+            </td>
+            <td class="element post-transition-metal">
+                <div class="element-number">31</div>
+                <div class="element-symbol">Ga</div>
+                <div class="element-name">Галлий</div>
+            </td>
+            <td class="element metalloid">
+                <div class="element-number">32</div>
+                <div class="element-symbol">Ge</div>
+                <div class="element-name">Германий</div>
+            </td>
+            <td class="element metalloid">
+                <div class="element-number">33</div>
+                <div class="element-symbol">As</div>
+                <div class="element-name">Мышьяк</div>
+            </td>
+            <td class="element other-nonmetal">
+                <div class="element-number">34</div>
+                <div class="element-symbol">Se</div>
+                <div class="element-name">Селен</div>
+            </td>
+            <td class="element halogen">
+                <div class="element-number">35</div>
+                <div class="element-symbol">Br</div>
+                <div class="element-name">Бром</div>
+            </td>
+            <td class="element noble-gas">
+                <div class="element-number">36</div>
+                <div class="element-symbol">Kr</div>
+                <div class="element-name">Криптон</div>
+            </td>
+        </tr>
+        <!-- Период 5 -->
+        <tr>
+            <td>5</td>
+            <td class="element alkali-metal">
+                <div class="element-number">37</div>
+                <div class="element-symbol">Rb</div>
+                <div class="element-name">Рубидий</div>
+            </td>
+            <td class="element alkaline-earth-metal">
+                <div class="element-number">38</div>
+                <div class="element-symbol">Sr</div>
+                <div class="element-name">Стронций</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">39</div>
+                <div class="element-symbol">Y</div>
+                <div class="element-name">Иттрий</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">40</div>
+                <div class="element-symbol">Zr</div>
+                <div class="element-name">Цирконий</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">41</div>
+                <div class="element-symbol">Nb</div>
+                <div class="element-name">Ниобий</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">42</div>
+                <div class="element-symbol">Mo</div>
+                <div class="element-name">Молибден</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">43</div>
+                <div class="element-symbol">Tc</div>
+                <div class="element-name">Технеций</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">44</div>
+                <div class="element-symbol">Ru</div>
+                <div class="element-name">Рутений</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">45</div>
+                <div class="element-symbol">Rh</div>
+                <div class="element-name">Родий</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">46</div>
+                <div class="element-symbol">Pd</div>
+                <div class="element-name">Палладий</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">47</div>
+                <div class="element-symbol">Ag</div>
+                <div class="element-name">Серебро</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">48</div>
+                <div class="element-symbol">Cd</div>
+                <div class="element-name">Кадмий</div>
+            </td>
+            <td class="element post-transition-metal">
+                <div class="element-number">49</div>
+                <div class="element-symbol">In</div>
+                <div class="element-name">Индий</div>
+            </td>
+            <td class="element post-transition-metal">
+                <div class="element-number">50</div>
+                <div class="element-symbol">Sn</div>
+                <div class="element-name">Олово</div>
+            </td>
+            <td class="element metalloid">
+                <div class="element-number">51</div>
+                <div class="element-symbol">Sb</div>
+                <div class="element-name">Сурьма</div>
+            </td>
+            <td class="element metalloid">
+                <div class="element-number">52</div>
+                <div class="element-symbol">Te</div>
+                <div class="element-name">Теллур</div>
+            </td>
+            <td class="element halogen">
+                <div class="element-number">53</div>
+                <div class="element-symbol">I</div>
+                <div class="element-name">Иод</div>
+            </td>
+            <td class="element noble-gas">
+                <div class="element-number">54</div>
+                <div class="element-symbol">Xe</div>
+                <div class="element-name">Ксенон</div>
+            </td>
+        </tr>
+        <!-- Период 6 -->
+        <tr>
+            <td>6</td>
+            <td class="element alkali-metal">
+                <div class="element-number">55</div>
+                <div class="element-symbol">Cs</div>
+                <div class="element-name">Цезий</div>
+            </td>
+            <td class="element alkaline-earth-metal">
+                <div class="element-number">56</div>
+                <div class="element-symbol">Ba</div>
+                <div class="element-name">Барий</div>
+            </td>
+            <td class="element lanthanide">
+                <div class="element-number">57</div>
+                <div class="element-symbol">La</div>
+                <div class="element-name">Лантан</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">72</div>
+                <div class="element-symbol">Hf</div>
+                <div class="element-name">Гафний</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">73</div>
+                <div class="element-symbol">Ta</div>
+                <div class="element-name">Тантал</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">74</div>
+                <div class="element-symbol">W</div>
+                <div class="element-name">Вольфрам</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">75</div>
+                <div class="element-symbol">Re</div>
+                <div class="element-name">Рений</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">76</div>
+                <div class="element-symbol">Os</div>
+                <div class="element-name">Осмий</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">77</div>
+                <div class="element-symbol">Ir</div>
+                <div class="element-name">Иридий</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">78</div>
+                <div class="element-symbol">Pt</div>
+                <div class="element-name">Платина</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">79</div>
+                <div class="element-symbol">Au</div>
+                <div class="element-name">Золото</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">80</div>
+                <div class="element-symbol">Hg</div>
+                <div class="element-name">Ртуть</div>
+            </td>
+            <td class="element post-transition-metal">
+                <div class="element-number">81</div>
+                <div class="element-symbol">Tl</div>
+                <div class="element-name">Таллий</div>
+            </td>
+            <td class="element post-transition-metal">
+                <div class="element-number">82</div>
+                <div class="element-symbol">Pb</div>
+                <div class="element-name">Свинец</div>
+            </td>
+            <td class="element post-transition-metal">
+                <div class="element-number">83</div>
+                <div class="element-symbol">Bi</div>
+                <div class="element-name">Висмут</div>
+            </td>
+            <td class="element metalloid">
+                <div class="element-number">84</div>
+                <div class="element-symbol">Po</div>
+                <div class="element-name">Полоний</div>
+            </td>
+            <td class="element halogen">
+                <div class="element-number">85</div>
+                <div class="element-symbol">At</div>
+                <div class="element-name">Астат</div>
+            </td>
+            <td class="element noble-gas">
+                <div class="element-number">86</div>
+                <div class="element-symbol">Rn</div>
+                <div class="element-name">Радон</div>
+            </td>
+        </tr>
+        <!-- Период 7 -->
+        <tr>
+            <td>7</td>
+            <td class="element alkali-metal">
+                <div class="element-number">87</div>
+                <div class="element-symbol">Fr</div>
+                <div class="element-name">Франций</div>
+            </td>
+            <td class="element alkaline-earth-metal">
+                <div class="element-number">88</div>
+                <div class="element-symbol">Ra</div>
+                <div class="element-name">Радий</div>
+            </td>
+            <td class="element actinide">
+                <div class="element-number">89</div>
+                <div class="element-symbol">Ac</div>
+                <div class="element-name">Актиний</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">104</div>
+                <div class="element-symbol">Rf</div>
+                <div class="element-name">Резерфордий</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">105</div>
+                <div class="element-symbol">Db</div>
+                <div class="element-name">Дубний</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">106</div>
+                <div class="element-symbol">Sg</div>
+                <div class="element-name">Сиборгий</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">107</div>
+                <div class="element-symbol">Bh</div>
+                <div class="element-name">Борий</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">108</div>
+                <div class="element-symbol">Hs</div>
+                <div class="element-name">Хассий</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">109</div>
+                <div class="element-symbol">Mt</div>
+                <div class="element-name">Мейтнерий</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">110</div>
+                <div class="element-symbol">Ds</div>
+                <div class="element-name">Дармштадтий</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">111</div>
+                <div class="element-symbol">Rg</div>
+                <div class="element-name">Рентгений</div>
+            </td>
+            <td class="element transition-metal">
+                <div class="element-number">112</div>
+                <div class="element-symbol">Cn</div>
+                <div class="element-name">Коперниций</div>
+            </td>
+            <td class="element post-transition-metal">
+                <div class="element-number">113</div>
+                <div class="element-symbol">Nh</div>
+                <div class="element-name">Нихоний</div>
+            </td>
+            <td class="element post-transition-metal">
+                <div class="element-number">114</div>
+                <div class="element-symbol">Fl</div>
+                <div class="element-name">Флеровий</div>
+            </td>
+            <td class="element post-transition-metal">
+                <div class="element-number">115</div>
+                <div class="element-symbol">Mc</div>
+                <div class="element-name">Московий</div>
+            </td>
+            <td class="element post-transition-metal">
+                <div class="element-number">116</div>
+                <div class="element-symbol">Lv</div>
+                <div class="element-name">Ливерморий</div>
+            </td>
+            <td class="element halogen">
+                <div class="element-number">117</div>
+                <div class="element-symbol">Ts</div>
+                <div class="element-name">Теннессин</div>
+            </td>
+            <td class="element noble-gas">
+                <div class="element-number">118</div>
+                <div class="element-symbol">Og</div>
+                <div class="element-name">Оганесон</div>
+            </td>
+        </tr>
+        <!-- Лантаноиды -->
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element lanthanide">
+                <div class="element-number">58</div>
+                <div class="element-symbol">Ce</div>
+                <div class="element-name">Церий</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element lanthanide">
+                <div class="element-number">59</div>
+                <div class="element-symbol">Pr</div>
+                <div class="element-name">Празеодим</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element lanthanide">
+                <div class="element-number">60</div>
+                <div class="element-symbol">Nd</div>
+                <div class="element-name">Неодим</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element lanthanide">
+                <div class="element-number">61</div>
+                <div class="element-symbol">Pm</div>
+                <div class="element-name">Прометий</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element lanthanide">
+                <div class="element-number">62</div>
+                <div class="element-symbol">Sm</div>
+                <div class="element-name">Самарий</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element lanthanide">
+                <div class="element-number">63</div>
+                <div class="element-symbol">Eu</div>
+                <div class="element-name">Европий</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element lanthanide">
+                <div class="element-number">64</div>
+                <div class="element-symbol">Gd</div>
+                <div class="element-name">Гадолиний</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element lanthanide">
+                <div class="element-number">65</div>
+                <div class="element-symbol">Tb</div>
+                <div class="element-name">Тербий</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element lanthanide">
+                <div class="element-number">66</div>
+                <div class="element-symbol">Dy</div>
+                <div class="element-name">Диспрозий</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element lanthanide">
+                <div class="element-number">67</div>
+                <div class="element-symbol">Ho</div>
+                <div class="element-name">Гольмий</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element lanthanide">
+                <div class="element-number">68</div>
+                <div class="element-symbol">Er</div>
+                <div class="element-name">Эрбий</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element lanthanide">
+                <div class="element-number">69</div>
+                <div class="element-symbol">Tm</div>
+                <div class="element-name">Тулий</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element lanthanide">
+                <div class="element-number">70</div>
+                <div class="element-symbol">Yb</div>
+                <div class="element-name">Иттербий</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element lanthanide">
+                <div class="element-number">71</div>
+                <div class="element-symbol">Lu</div>
+                <div class="element-name">Лютеций</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <!-- Актиноиды -->
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element actinide">
+                <div class="element-number">90</div>
+                <div class="element-symbol">Th</div>
+                <div class="element-name">Торий</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element actinide">
+                <div class="element-number">91</div>
+                <div class="element-symbol">Pa</div>
+                <div class="element-name">Протактиний</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element actinide">
+                <div class="element-number">92</div>
+                <div class="element-symbol">U</div>
+                <div class="element-name">Уран</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element actinide">
+                <div class="element-number">93</div>
+                <div class="element-symbol">Np</div>
+                <div class="element-name">Нептуний</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element actinide">
+                <div class="element-number">94</div>
+                <div class="element-symbol">Pu</div>
+                <div class="element-name">Плутоний</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element actinide">
+                <div class="element-number">95</div>
+                <div class="element-symbol">Am</div>
+                <div class="element-name">Америций</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element actinide">
+                <div class="element-number">96</div>
+                <div class="element-symbol">Cm</div>
+                <div class="element-name">Кюрий</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element actinide">
+                <div class="element-number">97</div>
+                <div class="element-symbol">Bk</div>
+                <div class="element-name">Берклий</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element actinide">
+                <div class="element-number">98</div>
+                <div class="element-symbol">Cf</div>
+                <div class="element-name">Калифорний</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element actinide">
+                <div class="element-number">99</div>
+                <div class="element-symbol">Es</div>
+                <div class="element-name">Эйнштейний</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element actinide">
+                <div class="element-number">100</div>
+                <div class="element-symbol">Fm</div>
+                <div class="element-name">Фермий</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element actinide">
+                <div class="element-number">101</div>
+                <div class="element-symbol">Md</div>
+                <div class="element-name">Менделевий</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element actinide">
+                <div class="element-number">102</div>
+                <div class="element-symbol">No</div>
+                <div class="element-name">Нобелий</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" class="empty"></td>
+            <td colspan="14" class="element actinide">
+                <div class="element-number">103</div>
+                <div class="element-symbol">Lr</div>
+                <div class="element-name">Лоуренсий</div>
+            </td>
+            <td colspan="1" class="empty"></td>
+        </tr>
+    </table>
+</body>
+</html>
